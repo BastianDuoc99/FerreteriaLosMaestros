@@ -11,7 +11,7 @@ export const PRODUCTOS = [
     stock: 80,
     stockMinimo: 20,
     descripcion: "Insumo de construcción de alta resistencia, ideal para obras, ampliaciones y remodelaciones. Se comercializa por saco.",
-    imagen: "/assets/img/cat-materiales.svg",
+    imagen: "/assets/img/Polpaico_25Kg.jpeg",
     tipo: "cementos",
   },
   {
@@ -26,7 +26,7 @@ export const PRODUCTOS = [
     stock: 40,
     stockMinimo: 10,
     descripcion: "Insumo de construcción de alta resistencia, ideal para obras, ampliaciones y remodelaciones. Se comercializa por saco.",
-    imagen: "/assets/img/cat-materiales.svg",
+    imagen: "/assets/img/Cemento_Melon_25KG.jpeg",
     tipo: "cementos",
   },
   {
@@ -41,7 +41,7 @@ export const PRODUCTOS = [
     stock: 50,
     stockMinimo: 15,
     descripcion: "Insumo de construcción de alta resistencia, ideal para obras, ampliaciones y remodelaciones. Se comercializa por saco.",
-    imagen: "/assets/img/cat-materiales.svg",
+    imagen: "/assets/img/Mortero_Volcan.jpeg",
     tipo: "morteros",
   },
   {
@@ -56,7 +56,7 @@ export const PRODUCTOS = [
     stock: 30,
     stockMinimo: 10,
     descripcion: "Insumo de construcción de alta resistencia, ideal para obras, ampliaciones y remodelaciones. Se comercializa por saco.",
-    imagen: "/assets/img/cat-materiales.svg",
+    imagen: "/assets/img/Mortero_Nivelador_Weber25.jpeg",
     tipo: "morteros",
   },
   {
