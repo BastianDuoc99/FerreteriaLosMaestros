@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Materiales">
+  <defs>
+    <linearGradient id="bg-cat-materiales" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#263238"/>
+      <stop offset="1" stop-color="#546e7a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-cat-materiales)"/>
+  <g opacity="0.08" stroke="#ffffff" stroke-width="2">
+    <path d="M-100 620L620 -100M-40 660L660 -40M20 700L700 20M80 740L740 80M140 780L780 140M200 820L820 200"/>
+  </g>
+  <circle cx="640" cy="120" r="230" fill="#ffffff" opacity="0.06"/>
+  <circle cx="740" cy="480" r="150" fill="#000000" opacity="0.12"/>
+  <g transform="translate(80 110) scale(3.4)"><g stroke="#ffb703" stroke-width="5" fill="none" stroke-linejoin="round">
+  <rect x="10" y="26" width="80" height="48" rx="4"/>
+  <path d="M10 42h80M10 58h80M34 26v16M66 26v16M22 42v16M50 42v16M78 42v16"/>
+</g></g>
+  <rect x="80" y="470" width="8" height="70" rx="4" fill="#ffb703"/>
+  <text x="110" y="505" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff">Materiales</text>
+  <text x="112" y="545" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="5" fill="#ffb703">FERRETERÍA LOS MAESTROS</text>
+</svg>

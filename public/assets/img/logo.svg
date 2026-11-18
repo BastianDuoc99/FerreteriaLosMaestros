@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 96" role="img" aria-label="Ferretería Los Maestros">
+  <g transform="translate(8 8)">
+    <path d="M40 0l34 20v40L40 80 6 60V20z" fill="#f57c00"/>
+    <path d="M40 9l26 15v32L40 71 14 56V24z" fill="#ffb703" opacity="0.22"/>
+    <g stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 60l24-24"/>
+      <path d="M43 26l13 13-9 9-13-13z" fill="#ffffff" stroke="none"/>
+      <path d="M22 22h18v10H22z" fill="#ffffff" stroke="none" transform="rotate(45 31 27)"/>
+      <path d="M26 44l12 12"/>
+    </g>
+  </g>
+  <text x="104" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="5.5" fill="#f57c00">FERRETERÍA</text>
+  <text x="103" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="800" letter-spacing="0.5" fill="#263238">LOS MAESTROS</text>
+  <text x="105" y="89" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="3" fill="#78909c">LA SERENA · CHILE</text>
+</svg>

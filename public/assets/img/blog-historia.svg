@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Historia de Ferretería Los Maestros">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#263238"/>
+      <stop offset="1" stop-color="#546e7a"/>
+    </linearGradient>
+    <linearGradient id="awning" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f57c00"/>
+      <stop offset="1" stop-color="#ffb703"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#sky)"/>
+  <g opacity="0.1" stroke="#ffffff" stroke-width="2">
+    <path d="M-100 600L600 -100M0 660L660 0M100 720L720 100M200 780L780 200"/>
+  </g>
+  <rect x="120" y="180" width="660" height="300" rx="14" fill="#eceff1"/>
+  <rect x="120" y="180" width="660" height="300" rx="14" fill="none" stroke="#cfd8dc" stroke-width="4"/>
+  <rect x="150" y="250" width="230" height="190" rx="8" fill="#90a4ae"/>
+  <rect x="170" y="270" width="90" height="150" fill="#607d8b"/>
+  <rect x="270" y="270" width="90" height="150" fill="#78909c"/>
+  <rect x="430" y="250" width="320" height="190" rx="8" fill="#cfd8dc"/>
+  <rect x="470" y="286" width="240" height="26" rx="6" fill="#455a64"/>
+  <rect x="470" y="332" width="190" height="18" rx="6" fill="#90a4ae"/>
+  <rect x="470" y="366" width="220" height="18" rx="6" fill="#90a4ae"/>
+  <path d="M110 180h680l-40 64H150z" fill="url(#awning)"/>
+  <path d="M170 180v64M250 180v64M330 180v64M410 180v64M490 180v64M570 180v64M650 180v64M730 180v64" stroke="#eceff1" stroke-width="12" opacity="0.55"/>
+  <rect x="120" y="480" width="660" height="18" rx="6" fill="#37474f"/>
+  <circle cx="740" cy="140" r="76" fill="#f57c00"/>
+  <text x="740" y="132" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="800" fill="#1c2833">22</text>
+  <text x="740" y="166" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="3" fill="#1c2833">AÑOS</text>
+  <text x="150" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" fill="#ffffff">LOS MAESTROS</text>
+  <text x="152" y="540" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="4" fill="#ffb703">FERRETERÍA · LA SERENA</text>
+</svg>

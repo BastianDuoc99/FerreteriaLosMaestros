@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Control de stock en tiempo real">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c2833"/>
+      <stop offset="1" stop-color="#37474f"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb703"/>
+      <stop offset="1" stop-color="#f57c00"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#bg)"/>
+  <g opacity="0.1" stroke="#ffffff" stroke-width="2">
+    <path d="M0 70H900M0 140H900M0 210H900M0 280H900M0 350H900M0 420H900M0 490H900"/>
+    <path d="M70 0V560M140 0V560M210 0V560M280 0V560M350 0V560M420 0V560M490 0V560M560 0V560M630 0V560M700 0V560M770 0V560M840 0V560"/>
+  </g>
+  <rect x="90" y="110" width="720" height="360" rx="18" fill="#eceff1"/>
+  <rect x="120" y="140" width="300" height="22" rx="8" fill="#455a64"/>
+  <rect x="120" y="176" width="200" height="14" rx="6" fill="#b0bec5"/>
+  <g>
+    <rect x="150" y="330" width="70" height="90" rx="8" fill="url(#bar)"/>
+    <rect x="250" y="280" width="70" height="140" rx="8" fill="url(#bar)"/>
+    <rect x="350" y="230" width="70" height="190" rx="8" fill="url(#bar)"/>
+    <rect x="450" y="300" width="70" height="120" rx="8" fill="#90a4ae"/>
+    <rect x="550" y="260" width="70" height="160" rx="8" fill="url(#bar)"/>
+    <rect x="650" y="210" width="70" height="210" rx="8" fill="#90a4ae"/>
+    <path d="M150 300L285 252L385 198L485 270L585 224L685 176" fill="none" stroke="#1c2833" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="150" cy="300" r="11" fill="#1c2833"/>
+    <circle cx="285" cy="252" r="11" fill="#1c2833"/>
+    <circle cx="385" cy="198" r="11" fill="#1c2833"/>
+    <circle cx="485" cy="270" r="11" fill="#1c2833"/>
+    <circle cx="585" cy="224" r="11" fill="#1c2833"/>
+    <circle cx="685" cy="176" r="11" fill="#1c2833"/>
+  </g>
+  <rect x="620" y="60" width="230" height="58" rx="12" fill="#f57c00"/>
+  <text x="735" y="98" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#1c2833">STOCK EN LÍNEA</text>
+  <text x="120" y="525" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="4" fill="#ffb703">INVENTARIO Y ALERTAS DE REPOSICIÓN</text>
+</svg>

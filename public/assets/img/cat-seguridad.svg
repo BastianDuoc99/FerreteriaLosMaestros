@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Seguridad y EPP">
+  <defs>
+    <linearGradient id="bg-cat-seguridad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b71c1c"/>
+      <stop offset="1" stop-color="#e53935"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-cat-seguridad)"/>
+  <g opacity="0.08" stroke="#ffffff" stroke-width="2">
+    <path d="M-100 620L620 -100M-40 660L660 -40M20 700L700 20M80 740L740 80M140 780L780 140M200 820L820 200"/>
+  </g>
+  <circle cx="640" cy="120" r="230" fill="#ffffff" opacity="0.06"/>
+  <circle cx="740" cy="480" r="150" fill="#000000" opacity="0.12"/>
+  <g transform="translate(80 110) scale(3.4)"><g stroke="#ffb703" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M20 62a30 30 0 0 1 60 0"/>
+  <rect x="12" y="62" width="76" height="12" rx="6"/>
+  <path d="M50 32V20"/>
+  <path d="M34 40l-8-8M66 40l8-8"/>
+</g></g>
+  <rect x="80" y="470" width="8" height="70" rx="4" fill="#ffb703"/>
+  <text x="110" y="505" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff">Seguridad y EPP</text>
+  <text x="112" y="545" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="5" fill="#ffb703">FERRETERÍA LOS MAESTROS</text>
+</svg>

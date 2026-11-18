@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Herramientas y materiales de construcción">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c2833"/>
+      <stop offset="0.55" stop-color="#2e4053"/>
+      <stop offset="1" stop-color="#455a64"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb703"/>
+      <stop offset="1" stop-color="#f57c00"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffb703" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffb703" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#heroBg)"/>
+  <g opacity="0.12" stroke="#ffb703" stroke-width="1.5">
+    <path d="M0 70H900M0 140H900M0 210H900M0 280H900M0 350H900M0 420H900M0 490H900M0 560H900M0 630H900"/>
+    <path d="M70 0V700M140 0V700M210 0V700M280 0V700M350 0V700M420 0V700M490 0V700M560 0V700M630 0V700M700 0V700M770 0V700M840 0V700"/>
+  </g>
+  <circle cx="500" cy="330" r="330" fill="url(#glow)"/>
+  <circle cx="500" cy="330" r="250" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+
+  <g transform="translate(300 180) rotate(-18)" stroke="#ffb703" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 90L160 250"/>
+    <path d="M150 240l26 26 34-34-26-26z" fill="#ffb703" stroke="none"/>
+    <path d="M-14 76l30 30 22-22-30-30z" fill="#ffb703" stroke="none"/>
+    <path d="M-20 60a34 34 0 1 0 48 48" />
+  </g>
+
+  <g transform="translate(560 250) rotate(24)" stroke="#ffffff" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 220V96"/>
+    <rect x="-18" y="18" width="92" height="58" rx="10" fill="#ffffff" stroke="none"/>
+    <path d="M46 76v20"/>
+  </g>
+
+  <g transform="translate(190 430)">
+    <rect x="0" y="0" width="150" height="46" rx="8" fill="#ffffff" opacity="0.92"/>
+    <rect x="0" y="58" width="150" height="46" rx="8" fill="#ffffff" opacity="0.82"/>
+    <rect x="0" y="116" width="150" height="46" rx="8" fill="#ffffff" opacity="0.72"/>
+    <path d="M38 0v46M104 58v46M62 116v46" stroke="#2e4053" stroke-width="4" opacity="0.4"/>
+  </g>
+
+  <g transform="translate(640 470)">
+    <path d="M0 40a60 60 0 0 1 120 0" fill="none" stroke="#ffb703" stroke-width="12" stroke-linecap="round"/>
+    <rect x="-14" y="40" width="148" height="20" rx="10" fill="#ffb703"/>
+    <path d="M60 8V-10" stroke="#ffb703" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(690 150)">
+    <circle cx="0" cy="0" r="86" fill="#f57c00"/>
+    <text x="0" y="-6" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="800" fill="#1c2833">22</text>
+    <text x="0" y="30" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="3" fill="#1c2833">AÑOS</text>
+  </g>
+
+  <g>
+    <text x="70" y="610" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff">FERRETERÍA LOS MAESTROS</text>
+    <text x="72" y="650" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" letter-spacing="2.5" fill="#ffb703">MATERIALES · HERRAMIENTAS · GASFITERÍA · ELECTRICIDAD</text>
+  </g>
+</svg>
