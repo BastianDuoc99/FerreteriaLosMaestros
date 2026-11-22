@@ -536,7 +536,7 @@ export const PRODUCTOS = [
     stock: 30,
     stockMinimo: 10,
     descripcion: "Artículo para instalaciones de agua potable y sanitarias, fabricado con materiales de calidad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-gasfiteria.svg",
+    imagen: "/assets/img/GS001.jpeg",
     tipo: "tuberias",
   },
   {
@@ -551,7 +551,7 @@ export const PRODUCTOS = [
     stock: 25,
     stockMinimo: 8,
     descripcion: "Artículo para instalaciones de agua potable y sanitarias, fabricado con materiales de calidad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-gasfiteria.svg",
+    imagen: "/assets/img/GS002.jpeg",
     tipo: "tuberias",
   },
   {
@@ -566,7 +566,7 @@ export const PRODUCTOS = [
     stock: 15,
     stockMinimo: 5,
     descripcion: "Artículo para instalaciones de agua potable y sanitarias, fabricado con materiales de calidad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-gasfiteria.svg",
+    imagen: "/assets/img/GS003.jpeg",
     tipo: "tuberias",
   },
   {
@@ -581,7 +581,7 @@ export const PRODUCTOS = [
     stock: 100,
     stockMinimo: 30,
     descripcion: "Artículo para instalaciones de agua potable y sanitarias, fabricado con materiales de calidad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-gasfiteria.svg",
+    imagen: "/assets/img/GS004.jpeg",
     tipo: "uniones",
   },
   {
@@ -596,7 +596,7 @@ export const PRODUCTOS = [
     stock: 80,
     stockMinimo: 25,
     descripcion: "Artículo para instalaciones de agua potable y sanitarias, fabricado con materiales de calidad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-gasfiteria.svg",
+    imagen: "/assets/img/GS005.jpeg",
     tipo: "uniones",
   },
   {
@@ -611,7 +611,7 @@ export const PRODUCTOS = [
     stock: 80,
     stockMinimo: 25,
     descripcion: "Artículo para instalaciones de agua potable y sanitarias, fabricado con materiales de calidad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-gasfiteria.svg",
+    imagen: "/assets/img/GS006.jpeg",
     tipo: "uniones",
   },
   {
@@ -626,7 +626,7 @@ export const PRODUCTOS = [
     stock: 30,
     stockMinimo: 10,
     descripcion: "Artículo para instalaciones de agua potable y sanitarias, fabricado con materiales de calidad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-gasfiteria.svg",
+    imagen: "/assets/img/GS007.jpeg",
     tipo: "llaves",
   },
   {
@@ -641,7 +641,7 @@ export const PRODUCTOS = [
     stock: 20,
     stockMinimo: 8,
     descripcion: "Artículo para instalaciones de agua potable y sanitarias, fabricado con materiales de calidad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-gasfiteria.svg",
+    imagen: "/assets/img/GS008.jpeg",
     tipo: "llaves",
   },
   {
@@ -656,7 +656,7 @@ export const PRODUCTOS = [
     stock: 10,
     stockMinimo: 3,
     descripcion: "Artículo para instalaciones de agua potable y sanitarias, fabricado con materiales de calidad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-gasfiteria.svg",
+    imagen: "/assets/img/GS009.jpeg",
     tipo: "griferia",
   },
   {
@@ -671,7 +671,7 @@ export const PRODUCTOS = [
     stock: 8,
     stockMinimo: 2,
     descripcion: "Artículo para instalaciones de agua potable y sanitarias, fabricado con materiales de calidad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-gasfiteria.svg",
+    imagen: "/assets/img/GS010.jpeg",
     tipo: "griferia",
   },
   {
@@ -686,7 +686,7 @@ export const PRODUCTOS = [
     stock: 80,
     stockMinimo: 25,
     descripcion: "Artículo para instalaciones de agua potable y sanitarias, fabricado con materiales de calidad. Se comercializa por rollo.",
-    imagen: "/assets/img/cat-gasfiteria.svg",
+    imagen: "/assets/img/GS011.jpeg",
     tipo: "sellos",
   },
   {
@@ -701,7 +701,7 @@ export const PRODUCTOS = [
     stock: 25,
     stockMinimo: 8,
     descripcion: "Artículo para instalaciones de agua potable y sanitarias, fabricado con materiales de calidad. Se comercializa por cartucho.",
-    imagen: "/assets/img/cat-gasfiteria.svg",
+    imagen: "/assets/img/GS012.jpeg",
     tipo: "sellos",
   },
   {
@@ -716,7 +716,7 @@ export const PRODUCTOS = [
     stock: 100,
     stockMinimo: 30,
     descripcion: "Componente eléctrico para instalaciones domiciliarias y de obra, con estándares de seguridad. Se comercializa por metro.",
-    imagen: "/assets/img/cat-electricidad.svg",
+    imagen: "/assets/img/EL001.jpeg",
     tipo: "conductores",
   },
   {
@@ -731,7 +731,7 @@ export const PRODUCTOS = [
     stock: 100,
     stockMinimo: 30,
     descripcion: "Componente eléctrico para instalaciones domiciliarias y de obra, con estándares de seguridad. Se comercializa por metro.",
-    imagen: "/assets/img/cat-electricidad.svg",
+    imagen: "/assets/img/EL002.jpeg",
     tipo: "conductores",
   },
   {
@@ -746,7 +746,7 @@ export const PRODUCTOS = [
     stock: 80,
     stockMinimo: 25,
     descripcion: "Componente eléctrico para instalaciones domiciliarias y de obra, con estándares de seguridad. Se comercializa por metro.",
-    imagen: "/assets/img/cat-electricidad.svg",
+    imagen: "/assets/img/EL003.jpeg",
     tipo: "conductores",
   },
   {
@@ -761,7 +761,7 @@ export const PRODUCTOS = [
     stock: 50,
     stockMinimo: 15,
     descripcion: "Componente eléctrico para instalaciones domiciliarias y de obra, con estándares de seguridad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-electricidad.svg",
+    imagen: "/assets/img/EL004.jpeg",
     tipo: "enchufes",
   },
   {
@@ -776,7 +776,7 @@ export const PRODUCTOS = [
     stock: 40,
     stockMinimo: 12,
     descripcion: "Componente eléctrico para instalaciones domiciliarias y de obra, con estándares de seguridad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-electricidad.svg",
+    imagen: "/assets/img/EL005.jpeg",
     tipo: "enchufes",
   },
   {
@@ -791,7 +791,7 @@ export const PRODUCTOS = [
     stock: 50,
     stockMinimo: 15,
     descripcion: "Componente eléctrico para instalaciones domiciliarias y de obra, con estándares de seguridad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-electricidad.svg",
+    imagen: "/assets/img/EL006.jpeg",
     tipo: "interruptores",
   },
   {
@@ -806,7 +806,7 @@ export const PRODUCTOS = [
     stock: 35,
     stockMinimo: 10,
     descripcion: "Componente eléctrico para instalaciones domiciliarias y de obra, con estándares de seguridad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-electricidad.svg",
+    imagen: "/assets/img/EL007.jpeg",
     tipo: "interruptores",
   },
   {
@@ -821,7 +821,7 @@ export const PRODUCTOS = [
     stock: 8,
     stockMinimo: 2,
     descripcion: "Componente eléctrico para instalaciones domiciliarias y de obra, con estándares de seguridad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-electricidad.svg",
+    imagen: "/assets/img/EL008.jpeg",
     tipo: "tableros",
   },
   {
@@ -836,7 +836,7 @@ export const PRODUCTOS = [
     stock: 20,
     stockMinimo: 5,
     descripcion: "Componente eléctrico para instalaciones domiciliarias y de obra, con estándares de seguridad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-electricidad.svg",
+    imagen: "/assets/img/EL009.jpeg",
     tipo: "tableros",
   },
   {
@@ -851,7 +851,7 @@ export const PRODUCTOS = [
     stock: 20,
     stockMinimo: 5,
     descripcion: "Componente eléctrico para instalaciones domiciliarias y de obra, con estándares de seguridad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-electricidad.svg",
+    imagen: "/assets/img/EL010.jpeg",
     tipo: "tableros",
   },
   {
@@ -866,7 +866,7 @@ export const PRODUCTOS = [
     stock: 60,
     stockMinimo: 20,
     descripcion: "Componente eléctrico para instalaciones domiciliarias y de obra, con estándares de seguridad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-electricidad.svg",
+    imagen: "/assets/img/EL011.jpeg",
     tipo: "iluminacion",
   },
   {
@@ -881,7 +881,7 @@ export const PRODUCTOS = [
     stock: 50,
     stockMinimo: 15,
     descripcion: "Componente eléctrico para instalaciones domiciliarias y de obra, con estándares de seguridad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-electricidad.svg",
+    imagen: "/assets/img/EL012.jpeg",
     tipo: "iluminacion",
   },
   {
@@ -896,7 +896,7 @@ export const PRODUCTOS = [
     stock: 20,
     stockMinimo: 6,
     descripcion: "Componente eléctrico para instalaciones domiciliarias y de obra, con estándares de seguridad. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-electricidad.svg",
+    imagen: "/assets/img/EL013.jpeg",
     tipo: "iluminacion",
   },
   {
@@ -911,7 +911,7 @@ export const PRODUCTOS = [
     stock: 40,
     stockMinimo: 12,
     descripcion: "Fijación de acero para uniones firmes y seguras en madera, metal y hormigón. Se comercializa por caja.",
-    imagen: "/assets/img/cat-tornilleria.svg",
+    imagen: "/assets/img/TR001.jpeg",
     tipo: "tornillos",
   },
   {
@@ -926,7 +926,7 @@ export const PRODUCTOS = [
     stock: 40,
     stockMinimo: 12,
     descripcion: "Fijación de acero para uniones firmes y seguras en madera, metal y hormigón. Se comercializa por caja.",
-    imagen: "/assets/img/cat-tornilleria.svg",
+    imagen: "/assets/img/TR002.jpeg",
     tipo: "tornillos",
   },
   {
@@ -941,7 +941,7 @@ export const PRODUCTOS = [
     stock: 30,
     stockMinimo: 10,
     descripcion: "Fijación de acero para uniones firmes y seguras en madera, metal y hormigón. Se comercializa por caja.",
-    imagen: "/assets/img/cat-tornilleria.svg",
+    imagen: "/assets/img/TR003.jpeg",
     tipo: "tornillos",
   },
   {
@@ -956,7 +956,7 @@ export const PRODUCTOS = [
     stock: 35,
     stockMinimo: 10,
     descripcion: "Fijación de acero para uniones firmes y seguras en madera, metal y hormigón. Se comercializa por bolsa.",
-    imagen: "/assets/img/cat-tornilleria.svg",
+    imagen: "/assets/img/TR004.jpeg",
     tipo: "tacos",
   },
   {
@@ -971,7 +971,7 @@ export const PRODUCTOS = [
     stock: 30,
     stockMinimo: 10,
     descripcion: "Fijación de acero para uniones firmes y seguras en madera, metal y hormigón. Se comercializa por bolsa.",
-    imagen: "/assets/img/cat-tornilleria.svg",
+    imagen: "/assets/img/TR005.jpeg",
     tipo: "tacos",
   },
   {
@@ -986,7 +986,7 @@ export const PRODUCTOS = [
     stock: 200,
     stockMinimo: 50,
     descripcion: "Fijación de acero para uniones firmes y seguras en madera, metal y hormigón. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-tornilleria.svg",
+    imagen: "/assets/img/TR006.jpeg",
     tipo: "pernos",
   },
   {
@@ -1001,7 +1001,7 @@ export const PRODUCTOS = [
     stock: 60,
     stockMinimo: 15,
     descripcion: "Fijación de acero para uniones firmes y seguras en madera, metal y hormigón. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-tornilleria.svg",
+    imagen: "/assets/img/TR007.jpeg",
     tipo: "anclajes",
   },
   {
@@ -1016,7 +1016,7 @@ export const PRODUCTOS = [
     stock: 8,
     stockMinimo: 2,
     descripcion: "Fijación de acero para uniones firmes y seguras en madera, metal y hormigón. Se comercializa por cartucho.",
-    imagen: "/assets/img/cat-tornilleria.svg",
+    imagen: "/assets/img/TR008.jpeg",
     tipo: "anclajes",
   },
   {
@@ -1031,7 +1031,7 @@ export const PRODUCTOS = [
     stock: 40,
     stockMinimo: 12,
     descripcion: "Producto de madera o tablero seleccionado para estructuras, terminaciones y muebles. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-madera.svg",
+    imagen: "/assets/img/MD001.jpeg",
     tipo: "pino-cepillado",
   },
   {
@@ -1046,7 +1046,7 @@ export const PRODUCTOS = [
     stock: 30,
     stockMinimo: 10,
     descripcion: "Producto de madera o tablero seleccionado para estructuras, terminaciones y muebles. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-madera.svg",
+    imagen: "/assets/img/MD002.jpeg",
     tipo: "pino-cepillado",
   },
   {
@@ -1061,7 +1061,7 @@ export const PRODUCTOS = [
     stock: 20,
     stockMinimo: 5,
     descripcion: "Producto de madera o tablero seleccionado para estructuras, terminaciones y muebles. Se comercializa por plancha.",
-    imagen: "/assets/img/cat-madera.svg",
+    imagen: "/assets/img/MD003.jpeg",
     tipo: "tableros",
   },
   {
@@ -1076,7 +1076,7 @@ export const PRODUCTOS = [
     stock: 15,
     stockMinimo: 4,
     descripcion: "Producto de madera o tablero seleccionado para estructuras, terminaciones y muebles. Se comercializa por plancha.",
-    imagen: "/assets/img/cat-madera.svg",
+    imagen: "/assets/img/MD004.jpeg",
     tipo: "tableros",
   },
   {
@@ -1091,7 +1091,7 @@ export const PRODUCTOS = [
     stock: 18,
     stockMinimo: 5,
     descripcion: "Producto de madera o tablero seleccionado para estructuras, terminaciones y muebles. Se comercializa por plancha.",
-    imagen: "/assets/img/cat-madera.svg",
+    imagen: "/assets/img/MD005.jpeg",
     tipo: "tableros",
   },
   {
@@ -1106,7 +1106,7 @@ export const PRODUCTOS = [
     stock: 30,
     stockMinimo: 8,
     descripcion: "Producto de madera o tablero seleccionado para estructuras, terminaciones y muebles. Se comercializa por plancha.",
-    imagen: "/assets/img/cat-madera.svg",
+    imagen: "/assets/img/MD006.jpeg",
     tipo: "tableros",
   },
   {
@@ -1121,7 +1121,7 @@ export const PRODUCTOS = [
     stock: 15,
     stockMinimo: 4,
     descripcion: "Producto de madera o tablero seleccionado para estructuras, terminaciones y muebles. Se comercializa por plancha.",
-    imagen: "/assets/img/cat-madera.svg",
+    imagen: "/assets/img/MD007.jpeg",
     tipo: "tableros",
   },
   {
@@ -1136,7 +1136,7 @@ export const PRODUCTOS = [
     stock: 15,
     stockMinimo: 5,
     descripcion: "Elemento de protección personal para reducir riesgos en faenas y trabajos de construcción. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-seguridad.svg",
+    imagen: "/assets/img/SE001.jpeg",
     tipo: "epp",
   },
   {
@@ -1151,7 +1151,7 @@ export const PRODUCTOS = [
     stock: 20,
     stockMinimo: 6,
     descripcion: "Elemento de protección personal para reducir riesgos en faenas y trabajos de construcción. Se comercializa por par.",
-    imagen: "/assets/img/cat-seguridad.svg",
+    imagen: "/assets/img/SE002.jpeg",
     tipo: "epp",
   },
   {
@@ -1166,7 +1166,7 @@ export const PRODUCTOS = [
     stock: 25,
     stockMinimo: 8,
     descripcion: "Elemento de protección personal para reducir riesgos en faenas y trabajos de construcción. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-seguridad.svg",
+    imagen: "/assets/img/SE003.jpeg",
     tipo: "epp",
   },
   {
@@ -1181,7 +1181,7 @@ export const PRODUCTOS = [
     stock: 10,
     stockMinimo: 3,
     descripcion: "Elemento de protección personal para reducir riesgos en faenas y trabajos de construcción. Se comercializa por caja.",
-    imagen: "/assets/img/cat-seguridad.svg",
+    imagen: "/assets/img/SE004.jpeg",
     tipo: "epp",
   },
   {
@@ -1196,7 +1196,7 @@ export const PRODUCTOS = [
     stock: 4,
     stockMinimo: 1,
     descripcion: "Elemento de protección personal para reducir riesgos en faenas y trabajos de construcción. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-seguridad.svg",
+    imagen: "/assets/img/SE005.jpeg",
     tipo: "epp",
   },
   {
@@ -1211,7 +1211,7 @@ export const PRODUCTOS = [
     stock: 6,
     stockMinimo: 2,
     descripcion: "Artículo para riego, mantención y cuidado de jardines y espacios exteriores. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-jardin.svg",
+    imagen: "/assets/img/JA001.jpeg",
     tipo: "mangueras",
   },
   {
@@ -1226,7 +1226,7 @@ export const PRODUCTOS = [
     stock: 5,
     stockMinimo: 2,
     descripcion: "Artículo para riego, mantención y cuidado de jardines y espacios exteriores. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-jardin.svg",
+    imagen: "/assets/img/JA002.jpeg",
     tipo: "mangueras",
   },
   {
@@ -1241,7 +1241,7 @@ export const PRODUCTOS = [
     stock: 10,
     stockMinimo: 3,
     descripcion: "Artículo para riego, mantención y cuidado de jardines y espacios exteriores. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-jardin.svg",
+    imagen: "/assets/img/JA003.jpeg",
     tipo: "mangueras",
   },
   {
@@ -1256,7 +1256,7 @@ export const PRODUCTOS = [
     stock: 8,
     stockMinimo: 2,
     descripcion: "Artículo para riego, mantención y cuidado de jardines y espacios exteriores. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-jardin.svg",
+    imagen: "/assets/img/JA004.jpeg",
     tipo: "herramientas",
   },
   {
@@ -1271,7 +1271,7 @@ export const PRODUCTOS = [
     stock: 6,
     stockMinimo: 2,
     descripcion: "Artículo para riego, mantención y cuidado de jardines y espacios exteriores. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-jardin.svg",
+    imagen: "/assets/img/JA005.jpeg",
     tipo: "herramientas",
   },
 ];
