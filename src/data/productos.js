@@ -71,7 +71,7 @@ export const PRODUCTOS = [
     stock: 60,
     stockMinimo: 20,
     descripcion: "Insumo de construcción de alta resistencia, ideal para obras, ampliaciones y remodelaciones. Se comercializa por saco.",
-    imagen: "/assets/img/cat-materiales.svg",
+    imagen: "/assets/img/arena-fina.jpeg",
     tipo: "aridos",
   },
   {
@@ -86,7 +86,7 @@ export const PRODUCTOS = [
     stock: 60,
     stockMinimo: 20,
     descripcion: "Insumo de construcción de alta resistencia, ideal para obras, ampliaciones y remodelaciones. Se comercializa por saco.",
-    imagen: "/assets/img/cat-materiales.svg",
+    imagen: "/assets/img/saco-ripio.jpeg",
     tipo: "aridos",
   },
   {
@@ -101,14 +101,14 @@ export const PRODUCTOS = [
     stock: 500,
     stockMinimo: 100,
     descripcion: "Insumo de construcción de alta resistencia, ideal para obras, ampliaciones y remodelaciones. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-materiales.svg",
+    imagen: "/assets/img/ladrillo-fiscal.jpeg",
     tipo: "ladrillos",
   },
   {
     codigo: "MC008",
     categoria: "Materiales de Construcción",
     subcategoria: "Ladrillos",
-    nombre: "Ladrillo prensado 6x14x29 cm",
+    nombre: "Ladrillo prensado 5x14x28 cm",
     marca: "Melón",
     unidad: "Unidad",
     precioCompra: 280,
@@ -116,7 +116,7 @@ export const PRODUCTOS = [
     stock: 300,
     stockMinimo: 80,
     descripcion: "Insumo de construcción de alta resistencia, ideal para obras, ampliaciones y remodelaciones. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-materiales.svg",
+    imagen: "/assets/img/Ladrillo_fiscal_28x14x5_cms.jpeg",
     tipo: "ladrillos",
   },
   {
@@ -131,7 +131,7 @@ export const PRODUCTOS = [
     stock: 200,
     stockMinimo: 50,
     descripcion: "Insumo de construcción de alta resistencia, ideal para obras, ampliaciones y remodelaciones. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-materiales.svg",
+    imagen: "/assets/img/bloque-hormigon.jpeg",
     tipo: "bloques",
   },
   {
@@ -146,7 +146,7 @@ export const PRODUCTOS = [
     stock: 100,
     stockMinimo: 30,
     descripcion: "Insumo de construcción de alta resistencia, ideal para obras, ampliaciones y remodelaciones. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-materiales.svg",
+    imagen: "/assets/img/bloque-hormigon-liso.jpeg",
     tipo: "bloques",
   },
   {
@@ -161,7 +161,7 @@ export const PRODUCTOS = [
     stock: 40,
     stockMinimo: 10,
     descripcion: "Producto de pintura y recubrimiento de buen rendimiento y cobertura para interiores y exteriores. Se comercializa por galón.",
-    imagen: "/assets/img/cat-pinturas.svg",
+    imagen: "/assets/img/PT001.jpeg",
     tipo: "latex",
   },
   {
@@ -176,7 +176,7 @@ export const PRODUCTOS = [
     stock: 30,
     stockMinimo: 8,
     descripcion: "Producto de pintura y recubrimiento de buen rendimiento y cobertura para interiores y exteriores. Se comercializa por envase 4l.",
-    imagen: "/assets/img/cat-pinturas.svg",
+    imagen: "/assets/img/PT002.jpeg",
     tipo: "latex",
   },
   {
@@ -184,14 +184,14 @@ export const PRODUCTOS = [
     categoria: "Pinturas y Recubrimientos",
     subcategoria: "Látex",
     nombre: "Pintura látex exterior 1 galón blanco",
-    marca: "Kömex",
+    marca: "Kölor",
     unidad: "Galón",
     precioCompra: 7200,
     precio: 13990,
     stock: 25,
     stockMinimo: 8,
     descripcion: "Producto de pintura y recubrimiento de buen rendimiento y cobertura para interiores y exteriores. Se comercializa por galón.",
-    imagen: "/assets/img/cat-pinturas.svg",
+    imagen: "/assets/img/PT003.jpeg",
     tipo: "latex",
   },
   {
@@ -206,7 +206,7 @@ export const PRODUCTOS = [
     stock: 50,
     stockMinimo: 15,
     descripcion: "Producto de pintura y recubrimiento de buen rendimiento y cobertura para interiores y exteriores. Se comercializa por 1/4 l.",
-    imagen: "/assets/img/cat-pinturas.svg",
+    imagen: "/assets/img/PT004.jpeg",
     tipo: "esmalte",
   },
   {
@@ -221,7 +221,7 @@ export const PRODUCTOS = [
     stock: 30,
     stockMinimo: 10,
     descripcion: "Producto de pintura y recubrimiento de buen rendimiento y cobertura para interiores y exteriores. Se comercializa por 1 litro.",
-    imagen: "/assets/img/cat-pinturas.svg",
+    imagen: "/assets/img/PT004.jpeg",
     tipo: "esmalte",
   },
   {
@@ -236,7 +236,7 @@ export const PRODUCTOS = [
     stock: 15,
     stockMinimo: 5,
     descripcion: "Producto de pintura y recubrimiento de buen rendimiento y cobertura para interiores y exteriores. Se comercializa por galón.",
-    imagen: "/assets/img/cat-pinturas.svg",
+    imagen: "/assets/img/PT006.jpeg",
     tipo: "antihumedad",
   },
   {
@@ -251,7 +251,7 @@ export const PRODUCTOS = [
     stock: 30,
     stockMinimo: 10,
     descripcion: "Producto de pintura y recubrimiento de buen rendimiento y cobertura para interiores y exteriores. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-pinturas.svg",
+    imagen: "/assets/img/PT007.jpeg",
     tipo: "accesorios",
   },
   {
@@ -266,7 +266,7 @@ export const PRODUCTOS = [
     stock: 40,
     stockMinimo: 10,
     descripcion: "Producto de pintura y recubrimiento de buen rendimiento y cobertura para interiores y exteriores. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-pinturas.svg",
+    imagen: "/assets/img/PT008.jpeg",
     tipo: "accesorios",
   },
   {
@@ -281,7 +281,7 @@ export const PRODUCTOS = [
     stock: 60,
     stockMinimo: 20,
     descripcion: "Producto de pintura y recubrimiento de buen rendimiento y cobertura para interiores y exteriores. Se comercializa por rollo.",
-    imagen: "/assets/img/cat-pinturas.svg",
+    imagen: "/assets/img/PT009.jpeg",
     tipo: "accesorios",
   },
   {
@@ -296,7 +296,7 @@ export const PRODUCTOS = [
     stock: 20,
     stockMinimo: 5,
     descripcion: "Herramienta manual resistente y durable, pensada para trabajos de construcción y mantención. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-herramientas-manuales.svg",
+    imagen: "/assets/img/HM001.jpeg",
     tipo: "manuales",
   },
   {
@@ -311,7 +311,7 @@ export const PRODUCTOS = [
     stock: 15,
     stockMinimo: 5,
     descripcion: "Herramienta manual resistente y durable, pensada para trabajos de construcción y mantención. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-herramientas-manuales.svg",
+    imagen: "/assets/img/HM002.jpeg",
     tipo: "manuales",
   },
   {
@@ -326,7 +326,7 @@ export const PRODUCTOS = [
     stock: 30,
     stockMinimo: 10,
     descripcion: "Herramienta manual resistente y durable, pensada para trabajos de construcción y mantención. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-herramientas-manuales.svg",
+    imagen: "/assets/img/HM003.jpeg",
     tipo: "manuales",
   },
   {
@@ -341,7 +341,7 @@ export const PRODUCTOS = [
     stock: 30,
     stockMinimo: 10,
     descripcion: "Herramienta manual resistente y durable, pensada para trabajos de construcción y mantención. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-herramientas-manuales.svg",
+    imagen: "/assets/img/HM004.jpeg",
     tipo: "manuales",
   },
   {
@@ -356,7 +356,7 @@ export const PRODUCTOS = [
     stock: 12,
     stockMinimo: 4,
     descripcion: "Herramienta manual resistente y durable, pensada para trabajos de construcción y mantención. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-herramientas-manuales.svg",
+    imagen: "/assets/img/HM005.jpeg",
     tipo: "manuales",
   },
   {
@@ -371,7 +371,7 @@ export const PRODUCTOS = [
     stock: 15,
     stockMinimo: 5,
     descripcion: "Herramienta manual resistente y durable, pensada para trabajos de construcción y mantención. Se comercializa por set.",
-    imagen: "/assets/img/cat-herramientas-manuales.svg",
+    imagen: "/assets/img/HM006.jpeg",
     tipo: "manuales",
   },
   {
@@ -386,7 +386,7 @@ export const PRODUCTOS = [
     stock: 10,
     stockMinimo: 3,
     descripcion: "Herramienta manual resistente y durable, pensada para trabajos de construcción y mantención. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-herramientas-manuales.svg",
+    imagen: "/assets/img/HM007.jpeg",
     tipo: "manuales",
   },
   {
@@ -401,7 +401,7 @@ export const PRODUCTOS = [
     stock: 8,
     stockMinimo: 3,
     descripcion: "Herramienta manual resistente y durable, pensada para trabajos de construcción y mantención. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-herramientas-manuales.svg",
+    imagen: "/assets/img/HM008.jpeg",
     tipo: "manuales",
   },
   {
@@ -416,7 +416,7 @@ export const PRODUCTOS = [
     stock: 25,
     stockMinimo: 8,
     descripcion: "Herramienta manual resistente y durable, pensada para trabajos de construcción y mantención. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-herramientas-manuales.svg",
+    imagen: "/assets/img/HM009.jpeg",
     tipo: "manuales",
   },
   {
@@ -431,7 +431,7 @@ export const PRODUCTOS = [
     stock: 20,
     stockMinimo: 6,
     descripcion: "Herramienta manual resistente y durable, pensada para trabajos de construcción y mantención. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-herramientas-manuales.svg",
+    imagen: "/assets/img/HM010.jpeg",
     tipo: "manuales",
   },
   {
@@ -446,7 +446,7 @@ export const PRODUCTOS = [
     stock: 8,
     stockMinimo: 2,
     descripcion: "Herramienta eléctrica de alto rendimiento para trabajos exigentes en obra y taller. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-herramientas-electricas.svg",
+    imagen: "/assets/img/HE001.jpeg",
     tipo: "electricas",
   },
   {
@@ -461,7 +461,7 @@ export const PRODUCTOS = [
     stock: 5,
     stockMinimo: 2,
     descripcion: "Herramienta eléctrica de alto rendimiento para trabajos exigentes en obra y taller. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-herramientas-electricas.svg",
+    imagen: "/assets/img/HE002.jpeg",
     tipo: "electricas",
   },
   {
@@ -476,7 +476,7 @@ export const PRODUCTOS = [
     stock: 8,
     stockMinimo: 2,
     descripcion: "Herramienta eléctrica de alto rendimiento para trabajos exigentes en obra y taller. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-herramientas-electricas.svg",
+    imagen: "/assets/img/HE003.jpeg",
     tipo: "electricas",
   },
   {
@@ -491,7 +491,7 @@ export const PRODUCTOS = [
     stock: 4,
     stockMinimo: 1,
     descripcion: "Herramienta eléctrica de alto rendimiento para trabajos exigentes en obra y taller. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-herramientas-electricas.svg",
+    imagen: "/assets/img/HE004.jpeg",
     tipo: "electricas",
   },
   {
@@ -506,7 +506,7 @@ export const PRODUCTOS = [
     stock: 6,
     stockMinimo: 2,
     descripcion: "Herramienta eléctrica de alto rendimiento para trabajos exigentes en obra y taller. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-herramientas-electricas.svg",
+    imagen: "/assets/img/HE005.jpeg",
     tipo: "electricas",
   },
   {
@@ -521,7 +521,7 @@ export const PRODUCTOS = [
     stock: 4,
     stockMinimo: 1,
     descripcion: "Herramienta eléctrica de alto rendimiento para trabajos exigentes en obra y taller. Se comercializa por unidad.",
-    imagen: "/assets/img/cat-herramientas-electricas.svg",
+    imagen: "/assets/img/HE006.jpeg",
     tipo: "electricas",
   },
   {
