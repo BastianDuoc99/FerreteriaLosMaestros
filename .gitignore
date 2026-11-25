@@ -1,28 +1,7 @@
-# Dependencias
 node_modules/
-.pnp
-.pnp.js
-
-# Pruebas y cobertura
-coverage/
-
-# Produccion
 dist/
-build/
-
-# Entorno local
+target/
 .env
-.env.local
-.env.*.local
-
-# Sistema y editores
+*.mv.db
+*.trace.db
 .DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
