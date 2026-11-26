@@ -20,6 +20,7 @@ describe("Formulario de Contacto", () => {
     expect(
       await screen.findByText(/El nombre es requerido/i)
     ).toBeInTheDocument();
+    expect(screen.getByText(/El correo es requerido/i)).toBeInTheDocument();
     expect(
       screen.getByText(/El comentario es requerido/i)
     ).toBeInTheDocument();

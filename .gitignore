@@ -5,3 +5,4 @@ target/
 *.mv.db
 *.trace.db
 .DS_Store
+entregables/

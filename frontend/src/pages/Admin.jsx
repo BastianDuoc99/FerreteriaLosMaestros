@@ -114,7 +114,7 @@ export default function Admin() {
       stockMinimo: Number(formulario.stockMinimo),
       descripcion: formulario.descripcion.trim(),
       imagen: formulario.imagen.trim() || "/assets/img/cat-varios.svg",
-      tipo: "personalizado",
+      tipo: formulario.tipo || "personalizado",
     };
 
     setGuardando(true);
@@ -143,6 +143,29 @@ export default function Admin() {
     } catch (error) {
       setErrorGeneral(error.message || "No se pudo eliminar el producto.");
     }
+  }
+
+  function editar(producto) {
+    setErrores({});
+    setMensaje("");
+    setErrorGeneral("");
+    setFormulario({
+      codigo: producto.codigo,
+      nombre: producto.nombre || "",
+      categoria: producto.categoria || CATEGORIAS[0],
+      subcategoria: producto.subcategoria || "",
+      marca: producto.marca || "",
+      unidad: producto.unidad || "Unidad",
+      precioCompra: String(producto.precioCompra ?? ""),
+      precio: String(producto.precio ?? ""),
+      stock: String(producto.stock ?? ""),
+      stockMinimo: String(producto.stockMinimo ?? ""),
+      descripcion: producto.descripcion || "",
+      imagen: producto.imagen || "",
+      tipo: producto.tipo || "personalizado",
+    });
+    window.scrollTo?.({ top: 0, behavior: "smooth" });
+    setMensaje(`Editando ${producto.codigo}. Guarda para aplicar los cambios.`);
   }
 
   return (
@@ -487,6 +510,14 @@ export default function Admin() {
                               </span>
                             </td>
                             <td className="text-end">
+                              <button
+                                type="button"
+                                className="btn btn-outline-primary btn-sm me-2"
+                                aria-label={`Editar ${producto.nombre}`}
+                                onClick={() => editar(producto)}
+                              >
+                                Editar
+                              </button>
                               <button
                                 type="button"
                                 className="btn btn-outline-danger btn-sm"

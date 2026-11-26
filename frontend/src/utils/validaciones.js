@@ -108,8 +108,11 @@ export function validarContacto({ nombre, correo, comentario }) {
     errores.nombre = "Máximo 100 caracteres.";
   }
 
-  if (correo?.trim() && !validEmail(correo)) {
-    errores.correo = "Correo inválido o no permitido.";
+  // El backend exige correo no vacío y con formato válido (ContactoRequest).
+  if (!correo?.trim()) {
+    errores.correo = "El correo es requerido.";
+  } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(correo.trim())) {
+    errores.correo = "Correo inválido.";
   }
 
   if (!comentario?.trim()) {

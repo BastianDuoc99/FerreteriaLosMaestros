@@ -73,6 +73,12 @@ public class SecurityConfig {
                 autorizacion
                     .requestMatchers(HttpMethod.OPTIONS, "/**")
                     .permitAll()
+                    .requestMatchers(
+                        "/swagger-ui.html",
+                        "/swagger-ui/**",
+                        "/v3/api-docs/**",
+                        "/v3/api-docs.yaml")
+                    .permitAll()
                     .requestMatchers("/api/auth/registro", "/api/auth/login", "/api/contacto")
                     .permitAll()
                     .requestMatchers(HttpMethod.GET, "/api/productos/**")

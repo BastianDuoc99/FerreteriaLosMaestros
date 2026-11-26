@@ -89,21 +89,29 @@ describe("validarRegistro", () => {
 });
 
 describe("validarContacto", () => {
-  it("exige nombre y comentario, pero permite correo vacío", () => {
+  it("exige nombre, correo y comentario", () => {
     const errores = validarContacto({ nombre: "", correo: "", comentario: "" });
     expect(errores.nombre).toMatch(/nombre es requerido/i);
+    expect(errores.correo).toMatch(/correo es requerido/i);
     expect(errores.comentario).toMatch(/comentario es requerido/i);
-    expect(errores.correo).toBeUndefined();
   });
 
-  it("valida el correo solo cuando se informa", () => {
+  it("valida el formato del correo igual que el backend", () => {
+    expect(
+      validarContacto({
+        nombre: "María",
+        correo: "correo-invalido",
+        comentario: "Hola",
+      }).correo
+    ).toMatch(/Correo inválido/i);
+
     expect(
       validarContacto({
         nombre: "María",
         correo: "alumna@correo.cl",
         comentario: "Hola",
-      }).correo
-    ).toMatch(/Correo inválido/i);
+      })
+    ).toEqual({});
 
     expect(
       validarContacto({
