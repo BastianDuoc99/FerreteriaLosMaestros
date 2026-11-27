@@ -1,9 +1,8 @@
 package cl.dsy1104.ferreteria.config;
 
-import cl.dsy1104.ferreteria.security.CustomUserDetailsService;
-import cl.dsy1104.ferreteria.security.JwtAuthenticationFilter;
 import java.util.Arrays;
 import java.util.List;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -23,6 +22,9 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+
+import cl.dsy1104.ferreteria.security.CustomUserDetailsService;
+import cl.dsy1104.ferreteria.security.JwtAuthenticationFilter;
 
 @Configuration
 @EnableWebSecurity
@@ -49,8 +51,7 @@ public class SecurityConfig {
 
   @Bean
   public DaoAuthenticationProvider authenticationProvider() {
-    DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
-    provider.setUserDetailsService(userDetailsService);
+    DaoAuthenticationProvider provider = new DaoAuthenticationProvider(userDetailsService);
     provider.setPasswordEncoder(passwordEncoder());
     return provider;
   }
