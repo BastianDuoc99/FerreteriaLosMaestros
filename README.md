@@ -6,13 +6,14 @@ Proyecto fullstack del semestral: **React 19 + Vite 8** en el frontend y **Sprin
 
 ```text
 FerreteriaLosMaestros/
-├── frontend/         # React + Vite (consumo real de la API)
-├── backend/          # Spring Boot + JPA + Spring Security + JWT
-├── database/         # Documentación de la base de datos
-├── documentacion/    # Integración, Postman, manual de usuario
-├── docker-compose.yml# MySQL 8 para ejecución local
-└── scripts/          # Arranque de MySQL portable (sin Docker)
+├── frontend/          # React + Vite (consumo real de la API)
+├── backend/           # Spring Boot + JPA + Spring Security + JWT
+├── database/          # Documentación de la base de datos
+└── docker-compose.yml # MySQL 8 para ejecución local
 ```
+
+Los entregables (documentación, ZIPs y script de arranque) están **fuera del repo**, en
+`C:\Users\BastiBrown\Desktop\FerreteriaLosMaestros_Entregables`.
 
 ## Requisitos previos
 
@@ -23,7 +24,7 @@ FerreteriaLosMaestros/
   ```
 
 - Node 20 o superior y npm
-- MySQL 8 (mediante `docker compose` o el MySQL portable incluido en el script `scripts/`)
+- MySQL 8 (mediante `docker compose` o el script portable de la carpeta de entregables del Escritorio)
 
 ## 1. Base de datos MySQL
 
@@ -38,10 +39,10 @@ Crea la BD `ferreteria`, el usuario `ferreteria` y la contraseña `ferreteria123
 ### Opción B — MySQL portable (sin Docker ni permisos de administrador)
 
 ```powershell
-.\scripts\iniciar-mysql.ps1
+& "C:\Users\BastiBrown\Desktop\FerreteriaLosMaestros_Entregables\scripts\iniciar-mysql.ps1"
 ```
 
-El script usa `C:\Users\BastiBrown\mysql-8.4` por defecto; puedes cambiar la ruta con `-MysqlHome "C:\ruta\mysql"`. Levanta el servidor en `127.0.0.1:3306`, crea la BD y el usuario si no existen, y deja el proceso corriendo.
+El script está fuera del repo, en la carpeta de entregables del Escritorio. Usa `C:\Users\BastiBrown\mysql-8.4` por defecto; puedes cambiar la ruta con `-MysqlHome "C:\ruta\mysql"`. Levanta el servidor en `127.0.0.1:3306`, crea la BD y el usuario si no existen, y deja el proceso corriendo.
 
 > Las credenciales anteriores son **de demostración**, no secretos reales.
 
@@ -107,10 +108,14 @@ npm run build
 
 ## Documentación adicional
 
+Todo lo siguiente está en `C:\Users\BastiBrown\Desktop\FerreteriaLosMaestros_Entregables`, salvo `database/README.md`, que sí queda en el repo:
+
 - `documentacion/integracion_api.md` — arquitectura, componentes, flujo REST, configuración y pasos de ejecución.
 - `documentacion/manual_usuario.md` — manual de usuario con capturas.
 - `documentacion/coleccion_postman.json` — colección para probar los endpoints.
-- `database/README.md` — esquema y seeds.
+- `entregables/backend.zip` y `entregables/frontend.zip` — ZIPs generados desde el tag `ep3-entrega`.
+- `scripts/iniciar-mysql.ps1` — arranque de MySQL portable (Opción B).
+- `database/README.md` — esquema y seeds (en el repo).
 
 ## Versión entregada EP3
 
