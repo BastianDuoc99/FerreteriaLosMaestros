@@ -13,7 +13,7 @@ FerreteriaLosMaestros/
 ```
 
 Los entregables (documentación, ZIPs y script de arranque) están **fuera del repo**, en
-`C:\Users\BastiBrown\Desktop\FerreteriaLosMaestros_Entregables`.
+`C:\Users\BastiBrown\Desktop\Varios\FerreteriaLosMaestros_Entregables`.
 
 ## Requisitos previos
 
@@ -24,7 +24,7 @@ Los entregables (documentación, ZIPs y script de arranque) están **fuera del r
   ```
 
 - Node 20 o superior y npm
-- MySQL 8 (mediante `docker compose` o el script portable de la carpeta de entregables del Escritorio)
+- MySQL 8 (mediante `docker compose` o el script portable en `Desktop\Varios\FerreteriaLosMaestros_Entregables`)
 
 ## 1. Base de datos MySQL
 
@@ -39,10 +39,10 @@ Crea la BD `ferreteria`, el usuario `ferreteria` y la contraseña `ferreteria123
 ### Opción B — MySQL portable (sin Docker ni permisos de administrador)
 
 ```powershell
-& "C:\Users\BastiBrown\Desktop\FerreteriaLosMaestros_Entregables\scripts\iniciar-mysql.ps1"
+& "C:\Users\BastiBrown\Desktop\Varios\FerreteriaLosMaestros_Entregables\scripts\iniciar-mysql.ps1"
 ```
 
-El script está fuera del repo, en la carpeta de entregables del Escritorio. Usa `C:\Users\BastiBrown\mysql-8.4` por defecto; puedes cambiar la ruta con `-MysqlHome "C:\ruta\mysql"`. Levanta el servidor en `127.0.0.1:3306`, crea la BD y el usuario si no existen, y deja el proceso corriendo.
+El script está fuera del repo, en `Desktop\Varios\FerreteriaLosMaestros_Entregables\scripts`. Usa `C:\Users\BastiBrown\mysql-8.4` por defecto; puedes cambiar la ruta con `-MysqlHome "C:\ruta\mysql"`. Levanta el servidor en `127.0.0.1:3306`, crea la BD y el usuario si no existen, y deja el proceso corriendo.
 
 > Las credenciales anteriores son **de demostración**, no secretos reales.
 
@@ -108,7 +108,7 @@ npm run build
 
 ## Documentación adicional
 
-Todo lo siguiente está en `C:\Users\BastiBrown\Desktop\FerreteriaLosMaestros_Entregables`, salvo `database/README.md`, que sí queda en el repo:
+Todo lo siguiente está en `C:\Users\BastiBrown\Desktop\Varios\FerreteriaLosMaestros_Entregables`, salvo `database/README.md`, que sí queda en el repo:
 
 - `documentacion/integracion_api.md` — arquitectura, componentes, flujo REST, configuración y pasos de ejecución.
 - `documentacion/manual_usuario.md` — manual de usuario con capturas.
